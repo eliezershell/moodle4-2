@@ -14,14 +14,14 @@ Siga estas etapas para instalar o Moodle 4.2.2 em seu sistema:
 2. **Execute o script de instalação:**
    ```
    cd moodle4-2
-   chmod +x install.sh
-   ./install.sh
+   chmod +x instalador_moodle_4.2.2.sh
+   ./instalador_moodle_4.2.2.sh
    ```
    
 ## Notas Adicionais
 
-- **Testado no Ubuntu 22.04:** Este script foi testado e aprovado no Ubuntu 22.04. Recomendo usar este sistema operacional para garantir a compatibilidade.
+- **Testado no Ubuntu 22.04:** Este script foi testado e aprovado no Ubuntu 22.04.
   
-- **Suporte a Outras Distribuições:** Embora tenha sido testado no Ubuntu 22.04, este script também deve funcionar em outras distribuições baseadas no Debian. Se você encontrar problemas em outras versões, por favor, informe-me.
+- **Suporte a Outras Distribuições:** Embora tenha sido testado no Ubuntu 22.04, este script também deve funcionar em outras distribuições baseadas no Debian.
 
-- **Problemas e Suporte:** Se encontrar problemas durante o processo de instalação ou precisar de suporte, sinta-se à vontade para abrir uma [issue](https://github.com/eliezershell/moodle4-2/issues) neste repositório. Estou aqui para ajudar.
+- **Problemas e Suporte:** Se encontrar problemas durante o processo de instalação ou precisar de suporte, sinta-se à vontade para abrir uma [issue](https://github.com/eliezershell/moodle4-2/issues) neste repositório.
