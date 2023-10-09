@@ -22,4 +22,4 @@ Siga estas etapas para instalar o Moodle 4.2.2 em seu sistema:
   
 - **Suporte a Outras Distribuições:** Embora tenha sido testado no Ubuntu 22.04, este script também deve funcionar em outras distribuições baseadas no Debian.
 
-- **Problemas e Suporte:** Se encontrar problemas durante o processo de instalação ou precisar de suporte, sinta-se à vontade para abrir uma [issue](https://github.com/eliezershell/moodle4-2/issues) neste repositório.
+- **Problemas e Suporte:** Se encontrar problemas durante o processo de instalação ou precisar de suporte, sinta-se à vontade para abrir uma [issue](https://github.com/eliezershell/moodle4-2-2/issues) neste repositório.
