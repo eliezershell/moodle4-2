@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "------------------------------Instalador Automatizado do Moodle4.2------------------------------"
+echo "-----------------------------Instalador Automatizado do Moodle4.2.2-----------------------------"
 echo "-----------------------Script by: Eliezer Ribeiro | linkedin.com/in/elinux----------------------"
 
 echo "Atualizando pacotes do repositório APT[...]"
