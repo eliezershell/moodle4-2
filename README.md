@@ -13,9 +13,7 @@ Siga estas etapas para instalar o Moodle 4.2.2 em seu sistema:
 
 2. **Execute o script de instalação:**
    ```
-   cd moodle4-2
-   chmod +x instalador_moodle_4.2.2.sh
-   ./instalador_moodle_4.2.2.sh
+   cd moodle4-2; chmod +x instalador_moodle_4.2.2.sh; ./instalador_moodle_4.2.2.sh
    ```
    
 ## Notas Adicionais
