@@ -8,12 +8,12 @@ Siga estas etapas para instalar o Moodle 4.2.2 em seu sistema:
 
 1. **Clone este repositório:**
    ```
-   git clone https://github.com/eliezershell/moodle4-2.git
+   git clone https://github.com/eliezershell/moodle4-2-2.git
    ```
 
 2. **Execute o script de instalação:**
    ```
-   cd moodle4-2; chmod +x instalador_moodle_4.2.2.sh; ./instalador_moodle_4.2.2.sh
+   cd moodle4-2-2; chmod +x instalador_moodle_4.2.2.sh; ./instalador_moodle_4.2.2.sh
    ```
    
 ## Notas Adicionais
