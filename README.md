@@ -2,10 +2,6 @@
 
 Este repositório contém um script para facilitar a instalação do Moodle 4.2.2 em sistemas Linux baseados no Debian. O script automatiza o processo de instalação, configurando todos os requisitos necessários, incluindo Apache 2, MySQL e PHP 8.1, juntamente com todas as extensões necessárias para executar o PHP 8.1.
 
-## Pré-requisitos
-
-- **Ubuntu 22** ou distribuição baseada no **Debian**
-
 ## Instalação
 
 Siga estas etapas para instalar o Moodle 4.2.2 em seu sistema:
