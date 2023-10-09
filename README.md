@@ -4,9 +4,7 @@ Este repositório contém um script para facilitar a instalação do Moodle 4.2 
 
 ## Pré-requisitos
 
-Antes de começar, certifique-se de que seu sistema atenda aos seguintes requisitos:
-
-- **Ubuntu 22.04** ou distribuição baseada no **Debian**
+- **Ubuntu 22** ou distribuição baseada no **Debian**
 
 ## Instalação
 
