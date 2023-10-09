@@ -81,7 +81,4 @@ sudo systemctl restart apache2
 
 echo "------------------------------Instalação concluída com sucesso!------------------------------"
 echo "----------------------Script by: Eliezer Ribeiro | linkedin.com/in/elinux--------------------"
-
-rm -rf instalador_moodle_4.2.2.sh
-
 exit 0
