@@ -51,15 +51,15 @@ if [ $? -gt 0 ]; then
         echo "Erro ao permitir escrita!"; exit 0
 fi
 
-git clone -b MOODLE_402_STABLE git://git.moodle.org/moodle.git
-if [ $? -gt 0 ]; then
-        echo "Erro ao clonar Moodle4.2!"; exit 0
-fi
+#git clone -b MOODLE_402_STABLE git://git.moodle.org/moodle.git
+#if [ $? -gt 0 ]; then
+#        echo "Erro ao clonar Moodle4.2!"; exit 0
+#fi
 
-sudo mv moodle /var/www/html; sudo rm -f /var/www/html/index.html; sudo mv /var/www/html/moodle/* /var/www/html; sudo rm -rf /var/www/html/moodle
-if [ $? -gt 0 ]; then
-        echo "Erro ao mover arquivos!"; exit 0
-fi
+#sudo mv moodle /var/www/html; sudo rm -f /var/www/html/index.html; sudo mv /var/www/html/moodle/* /var/www/html; sudo rm -rf /var/www/html/moodle
+#if [ $? -gt 0 ]; then
+#        echo "Erro ao mover arquivos!"; exit 0
+#fi
 
 sudo sed -i "s/;max_input_vars = 1000/max_input_vars = 5000/g" /etc/php/8.1/apache2/php.ini
 if [ $? -gt 0 ]; then
