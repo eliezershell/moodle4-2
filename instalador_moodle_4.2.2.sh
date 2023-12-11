@@ -46,20 +46,24 @@ if [ $? -gt 0 ]; then
         echo "Erro ao criar Database!"; exit 0
 fi
 
-sudo chmod a+w /var/www /var/www/html /etc/php/8.1/apache2/php.ini
+#sudo chmod a+w /var/www /var/www/html /etc/php/8.1/apache2/php.ini
+#if [ $? -gt 0 ]; then
+#        echo "Erro ao permitir escrita!"; exit 0
+#fi
+
+git clone git://git.moodle.org/moodle.git
+cd moodle
+git branch -a
+git branch --track MOODLE_403_STABLE origin/MOODLE_403_STABLE
+git checkout MOODLE_403_STABLE
 if [ $? -gt 0 ]; then
-        echo "Erro ao permitir escrita!"; exit 0
+        echo "Erro ao clonar Moodle4.2!"; exit 0
 fi
 
-#git clone -b MOODLE_402_STABLE git://git.moodle.org/moodle.git
-#if [ $? -gt 0 ]; then
-#        echo "Erro ao clonar Moodle4.2!"; exit 0
-#fi
-
-#sudo mv moodle /var/www/html; sudo rm -f /var/www/html/index.html; sudo mv /var/www/html/moodle/* /var/www/html; sudo rm -rf /var/www/html/moodle
-#if [ $? -gt 0 ]; then
-#        echo "Erro ao mover arquivos!"; exit 0
-#fi
+sudo rm -f /var/www/html/index.html; cd ..; sudo mv moodle /var/www/html; sudo mv /var/www/html/moodle/* /var/www/html; sudo rm -rf /var/www/html/moodle
+if [ $? -gt 0 ]; then
+        echo "Erro ao mover arquivos!"; exit 0
+fi
 
 sudo sed -i "s/;max_input_vars = 1000/max_input_vars = 5000/g" /etc/php/8.1/apache2/php.ini
 if [ $? -gt 0 ]; then
